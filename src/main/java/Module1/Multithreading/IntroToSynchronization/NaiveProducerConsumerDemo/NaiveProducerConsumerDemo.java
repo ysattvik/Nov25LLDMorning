@@ -1,4 +1,4 @@
-package Module1.IntroToSynchronization.NaiveProducerConsumerDemo;
+package Module1.Multithreading.IntroToSynchronization.NaiveProducerConsumerDemo;
 
 import java.util.ArrayList;
 import java.util.List;

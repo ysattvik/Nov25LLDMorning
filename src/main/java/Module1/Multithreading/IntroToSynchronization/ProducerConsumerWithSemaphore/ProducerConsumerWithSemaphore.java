@@ -1,4 +1,4 @@
-package Module1.IntroToSynchronization.ProducerConsumerWithSemaphore;
+package Module1.Multithreading.IntroToSynchronization.ProducerConsumerWithSemaphore;
 
 import java.util.ArrayList;
 import java.util.List;

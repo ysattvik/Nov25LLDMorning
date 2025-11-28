@@ -44,15 +44,24 @@ public class WebScraperProblem {
         long start = System.currentTimeMillis();
 
         // TODO: Create list of Futures
+        List<Future<Void>> futures = new ArrayList<>();
 
         // TODO: Submit ScrapURL tasks to executor
+        for (String url : urls) {
+            futures.add(executor.submit(new ScrapURL(url)));
+        }
 
         // TODO: Wait for all tasks to finish using future.get()
+        for( Future<Void> future : futures) {
+            future.get();
+        }
 
         long end = System.currentTimeMillis();
 
         // TODO: Print time taken with the given label
+        System.out.println(label + " - Total time taken: " + (end - start) + " ms");
 
         // TODO: Shutdown executor
+        executor.shutdown();
     }
 }
