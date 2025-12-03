@@ -1,6 +1,4 @@
-package Module1.Generics;
-
-import org.hibernate.Remove;
+package Module1.Generics.Task2;
 
 //Milestone 2: Generic Inventory Management
 //
@@ -25,3 +23,8 @@ import org.hibernate.Remove;
 
 public class Task2 {
 }
+
+// Multibound generic example:
+//Inventory< T extends Item & Interface1 & Interface2 >
+// You can have multiple bounds for a generic type parameter by using the '&' symbol.
+// You cannot use multiple class types in the bounds, only one class type is allowed, but you can have multiple interfaces.

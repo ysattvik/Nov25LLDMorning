@@ -1,4 +1,4 @@
-package Module1.Generics;
+package Module1.Generics.Task2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -89,3 +89,6 @@ public class BoundsDemo {
 
 }
 
+// ? is Wildcard
+// extends = Upper Bound
+// Upper bound allows reading (producing) safely while preventing writes.
