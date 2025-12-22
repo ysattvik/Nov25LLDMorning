@@ -10,7 +10,8 @@ public class Client {
         );
 
         Mage magecopy = mage1.clone(); // create a new object using the clone method
-
-        System.out.println("Original Mage: " + mage1);
+        magecopy.weapon.setName("Rifle");
+        System.out.println("Original Mage Address: " + mage1 + " Original Mage Info "+mage1.getInfo());
+        System.out.println("Clone Mage Address: " + magecopy + " Original Mage info "+magecopy.getInfo());
     }
 }

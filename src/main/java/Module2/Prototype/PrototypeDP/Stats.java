@@ -18,6 +18,7 @@ public class Stats implements Prototype<Stats>{
         return "HP: " + health + ", Mana: " + mana;
     }
 
+
     @Override
     public Stats clone(){
         return new Stats(this);

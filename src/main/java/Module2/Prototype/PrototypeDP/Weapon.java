@@ -29,6 +29,10 @@ public class Weapon implements Prototype<Weapon>
         return name + " (Damage: " + damage + ")";
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public Weapon clone(){
         return new Weapon(this);
