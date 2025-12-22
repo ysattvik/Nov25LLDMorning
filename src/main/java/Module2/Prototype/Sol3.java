@@ -21,6 +21,7 @@ public class Sol3 {
         magecopy.setAi(mage.getAi());
 
         System.out.println("Original Mage Name: " + mage.getInfo());
+        System.out.println("Original Mage Name: " + magecopy.getInfo());
     }
 }
 

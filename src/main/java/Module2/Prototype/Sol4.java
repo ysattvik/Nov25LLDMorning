@@ -12,6 +12,9 @@ public class Sol4 {
         );
 
         Mage magecopy = new Mage(mage);
+        magecopy.setName("John");
+        System.out.println("Original Mage Name: " + mage.getInfo());
+        System.out.println("Original Mage Name: " + magecopy.getInfo());
     }
 }
 

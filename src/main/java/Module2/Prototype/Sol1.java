@@ -17,7 +17,7 @@ public class Sol1 {
         Mage magecopy = mage; // same reference
 
         // Modifying magecopy will affect mage
-        magecopy.setName("Modified Jaina");
+        magecopy.setName("Modified John");
 
         System.out.println("Original Mage Name: " + mage.getInfo());
 

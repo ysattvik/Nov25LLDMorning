@@ -19,6 +19,8 @@ public class Sol2 {
                 new Stats(100, 200),
                 new AI("Aggressive")
         );
+        System.out.println("Original Mage Name: " + mage.getInfo());
+        System.out.println("Original Mage Name: " + mage2.getInfo());
     }
 }
 

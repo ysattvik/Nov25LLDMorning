@@ -27,6 +27,10 @@ class Weapon {
     public String getDetails() {
         return name + " (Damage: " + damage + ")";
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
 
 class Stats {
@@ -117,6 +121,7 @@ public class Sol5 {
 
         System.out.println("\nCloning Mage...");
         Mage clonedMage = new Mage(originalMage);
+        clonedMage.weapon.setName("Rifle");
 
         System.out.println("\nCloned Mage:");
         clonedMage.displayInfo();
