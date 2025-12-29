@@ -10,6 +10,7 @@ public class EntranceExam {
         this.examName = examName;
     }
 
+    // Copy Constructor
     EntranceExam(EntranceExam other){
         examID = other.examID;;
         examName = other.examName;
